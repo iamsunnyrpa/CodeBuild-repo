@@ -7,5 +7,4 @@ phases:
   build:
     commands:
       - docker images
-      - echo "I am Sunny bhai to bhai hai"
       - docker run helloworld echo "Hello, World!" 
